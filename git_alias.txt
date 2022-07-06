@@ -1,0 +1,25 @@
+[alias]
+        a = add
+        st = status
+        sh = stash
+        cm = commit
+        cmm = commit -m
+        cma = commit --amend
+        cmam = commit --amend -m
+        ae = --allow-empty
+        co = checkout
+        rs = restore
+        tree = log --decorate --oneline --graph
+        df = diff
+        dfc = diff --cached
+        br = branch
+        lg = log
+        lgo = log --oneline
+        sw = switch
+        swc = switch -c
+        rs = restore
+        pl = pull
+        plp = pull --prune
+        ps = push
+        poH = push origin HEAD
+        cl = clean -fdf
