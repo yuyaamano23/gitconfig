@@ -1,12 +1,12 @@
 [alias]
         a = add
         st = status
-        sh = stash
-        cm = commit
+	sh = stash
+        cm = commit -v
         cmm = commit -m
         cma = commit --amend
         cmam = commit --amend -m
-        ae = --allow-empty
+	ae = --allow-empty
         co = checkout
         rs = restore
         tree = log --decorate --oneline --graph
@@ -18,8 +18,9 @@
         sw = switch
         swc = switch -c
         rs = restore
-        pl = pull
+	      pl = pull
         plp = pull --prune
         ps = push
         poH = push origin HEAD
-        cl = clean -fdf
+	      cl = clean -fdf
+        rbr = branch --sort=committerdate
